@@ -1,0 +1,150 @@
+[Root]
+Most Recent Package=Login Script User Version 1.1
+
+
+[Package|Dep File 1|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=C:\Login-Script\LS User
+
+[Package|Dep File 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Dep File 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Dep File 1|Files Found]
+
+[Package|Dep File 1|Files Released]
+
+[Package|Dep File 1|Missing Dependency Information]
+
+[Package|Dep File 1|Out-of-Date Dependency Information]
+C:\WINNT\system32\mscomctl.ocx=
+
+[Package|Dep File 1|Files Added]
+
+[Package|Dep File 1|Files Removed]
+
+[Package|Dep File 1|Files In Project]
+C:\Login-Script\LS User\LSUser.exe=Yes
+C:\WINNT\system32\MSVBVM60.DLL=Yes
+C:\WINNT\system32\OLEAUT32.DLL=Yes
+C:\WINNT\system32\OLEPRO32.DLL=Yes
+C:\WINNT\system32\ASYCFILT.DLL=Yes
+C:\WINNT\system32\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\mscomctl.ocx=Yes
+
+[Package|Dep File 1|Configure Registry Files]
+Applicable=
+
+[Package|Dep File 1|Configure Remote Servers]
+Applicable=
+
+[Package|Dep File 1|Install Locations]
+C:\Login-Script\LS User\LSUser.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\mscomctl.ocx=$(WinSysPath)
+
+[Package|Dep File 1|Configure Shared Files]
+Applicable=
+
+[Package|Dep File 1|DepFile]
+DepCabFile=LSUser.CAB
+DepCabRun=LSUser.INF
+
+[Package|Dep File 1|Package]
+PackageFolder=C:\Login-Script\LS User
+ProjectFolder=C:\Login-Script\LS User
+ServerSideCab=
+File1=C:\Login-Script\LS User\LSUser.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Login Script User Version 1.1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Login-Script\LS User\Package
+
+[Package|Login Script User Version 1.1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Login Script User Version 1.1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Login Script User Version 1.1|Files Found]
+
+[Package|Login Script User Version 1.1|Files Released]
+
+[Package|Login Script User Version 1.1|Missing Dependency Information]
+C:\WINNT\system32\ASPUser.dll=
+
+[Package|Login Script User Version 1.1|Out-of-Date Dependency Information]
+C:\WINNT\system32\mscomctl.ocx=
+
+[Package|Login Script User Version 1.1|Files Added]
+C:\WINNT\system32\ASPUser.dll=
+
+[Package|Login Script User Version 1.1|Files Removed]
+
+[Package|Login Script User Version 1.1|Files In Project]
+C:\WINNT\Profiles\westd\Desktop\lsuser.exe=Yes
+C:\WINNT\system32\MSVBVM60.DLL=Yes
+C:\WINNT\system32\OLEAUT32.DLL=Yes
+C:\WINNT\system32\OLEPRO32.DLL=Yes
+C:\WINNT\system32\ASYCFILT.DLL=Yes
+C:\WINNT\system32\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\mscomctl.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINNT\system32\ASPUser.dll=Yes
+
+[Package|Login Script User Version 1.1|Configure Registry Files]
+Applicable=No
+
+[Package|Login Script User Version 1.1|Configure Remote Servers]
+Applicable=No
+
+[Package|Login Script User Version 1.1|Install Locations]
+C:\WINNT\Profiles\westd\Desktop\lsuser.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\mscomctl.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINNT\system32\ASPUser.dll=$(WinSysPath)
+
+[Package|Login Script User Version 1.1|Configure Shared Files]
+Applicable=Yes
+C:\WINNT\Profiles\westd\Desktop\lsuser.exe=No
+
+[Package|Login Script User Version 1.1|Distribution]
+Type=single
+Size=
+Title=Login Script User Version 1.1
+
+[Package|Login Script User Version 1.1|Package]
+PackageFolder=C:\Login-Script\LS User\Package
+ProjectFolder=C:\Login-Script\LS User
+ServerSideCab=
+File1=C:\Login-Script\LS User\Package\setup.exe
+File2=C:\Login-Script\LS User\Package\Setup.Lst
+File3=C:\Login-Script\LS User\Package\lsuser.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
