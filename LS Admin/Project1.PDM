@@ -1,0 +1,185 @@
+[Root]
+Most Recent Package=Login Script Administrator Version 1.1
+
+
+[Package|Login Script Admin|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Login-Script\LS Admin\Package
+
+[Package|Login Script Admin|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Login Script Admin|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Login Script Admin|Files Found]
+
+[Package|Login Script Admin|Files Released]
+
+[Package|Login Script Admin|Missing Dependency Information]
+C:\WINNT\system32\ASPUser.dll=
+
+[Package|Login Script Admin|Out-of-Date Dependency Information]
+C:\WINNT\system32\tabctl32.ocx=
+
+[Package|Login Script Admin|Files Added]
+
+[Package|Login Script Admin|Files Removed]
+
+[Package|Login Script Admin|Files In Project]
+C:\Login-Script\LS Admin\LSAdmin.exe=Yes
+C:\WINNT\system32\MSVBVM60.DLL=Yes
+C:\WINNT\system32\OLEAUT32.DLL=Yes
+C:\WINNT\system32\OLEPRO32.DLL=Yes
+C:\WINNT\system32\ASYCFILT.DLL=Yes
+C:\WINNT\system32\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\ASPUser.dll=Yes
+C:\WINNT\system32\tabctl32.ocx=Yes
+C:\WINNT\system32\MSDATGRD.OCX=Yes
+C:\WINNT\system32\MSSTDFMT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Login Script Admin|Configure Registry Files]
+Applicable=No
+
+[Package|Login Script Admin|Configure Remote Servers]
+Applicable=No
+
+[Package|Login Script Admin|Install Locations]
+C:\Login-Script\LS Admin\LSAdmin.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\ASPUser.dll=$(WinSysPath)
+C:\WINNT\system32\tabctl32.ocx=$(WinSysPath)
+C:\WINNT\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINNT\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Login Script Admin|Configure Shared Files]
+Applicable=Yes
+C:\Login-Script\LS Admin\LSAdmin.exe=No
+
+[Package|Login Script Admin|Distribution]
+Type=multi
+Size=1.44 MB
+Title=Login Script Administration v1.1
+
+[Package|Login Script Admin|IconGroups]
+Group0=Login Script
+PrivateGroup0=False
+Parent0=$(Programs)
+
+[Package|Login Script Admin|Login Script]
+Icon1=LSAdmin.exe
+Title1=Login Script Administration v1.0
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Login Script Admin|Package]
+PackageFolder=C:\Login-Script\LS Admin\Package
+ProjectFolder=C:\Login-Script\LS Admin
+ServerSideCab=
+File1=C:\Login-Script\LS Admin\Package\setup.exe
+File2=C:\Login-Script\LS Admin\Package\Setup.Lst
+File3=C:\Login-Script\LS Admin\Package\LSAdmi1.CAB
+File4=C:\Login-Script\LS Admin\Package\LSAdmi2.CAB
+Handler1=PDWizard.FloppyDplySubWiz
+Handler2=PDWizard.FolderDplySubWiz
+Handler3=PDWizard.WebPostDplySubWiz
+
+
+[Package|Login Script Administrator Version 1.1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Login-Script\LS Admin\Package
+
+[Package|Login Script Administrator Version 1.1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Login Script Administrator Version 1.1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Login Script Administrator Version 1.1|Files Found]
+
+[Package|Login Script Administrator Version 1.1|Files Released]
+
+[Package|Login Script Administrator Version 1.1|Missing Dependency Information]
+C:\WINNT\system32\ASPUser.dll=
+
+[Package|Login Script Administrator Version 1.1|Out-of-Date Dependency Information]
+C:\WINNT\system32\tabctl32.ocx=
+
+[Package|Login Script Administrator Version 1.1|Files Added]
+
+[Package|Login Script Administrator Version 1.1|Files Removed]
+
+[Package|Login Script Administrator Version 1.1|Files In Project]
+C:\Login-Script\LS Admin\LSAdmin.exe=Yes
+C:\WINNT\system32\MSVBVM60.DLL=Yes
+C:\WINNT\system32\OLEAUT32.DLL=Yes
+C:\WINNT\system32\OLEPRO32.DLL=Yes
+C:\WINNT\system32\ASYCFILT.DLL=Yes
+C:\WINNT\system32\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\ASPUser.dll=Yes
+C:\WINNT\system32\tabctl32.ocx=Yes
+C:\WINNT\system32\MSDATGRD.OCX=Yes
+C:\WINNT\system32\MSSTDFMT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Login Script Administrator Version 1.1|Configure Registry Files]
+Applicable=No
+
+[Package|Login Script Administrator Version 1.1|Configure Remote Servers]
+Applicable=No
+
+[Package|Login Script Administrator Version 1.1|Install Locations]
+C:\Login-Script\LS Admin\LSAdmin.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\ASPUser.dll=$(WinSysPath)
+C:\WINNT\system32\tabctl32.ocx=$(WinSysPath)
+C:\WINNT\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINNT\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Login Script Administrator Version 1.1|Configure Shared Files]
+Applicable=Yes
+C:\Login-Script\LS Admin\LSAdmin.exe=No
+
+[Package|Login Script Administrator Version 1.1|Distribution]
+Type=single
+Size=
+Title=Login Script Administrator Version 1.1
+
+[Package|Login Script Administrator Version 1.1|Package]
+PackageFolder=C:\Login-Script\LS Admin\Package
+ProjectFolder=C:\Login-Script\LS Admin
+ServerSideCab=
+File1=C:\Login-Script\LS Admin\Package\setup.exe
+File2=C:\Login-Script\LS Admin\Package\Setup.Lst
+File3=C:\Login-Script\LS Admin\Package\LSAdmin.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
